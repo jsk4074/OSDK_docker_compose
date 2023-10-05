@@ -1,0 +1,5 @@
+app_id : id here
+app_key : key here
+device : /dev/ttyS0
+baudrate : 230400
+acm_port : /dev/ttyACM0

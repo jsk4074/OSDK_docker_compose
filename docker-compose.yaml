@@ -1,0 +1,9 @@
+services:
+  osdk_examples:
+    build: .
+    devices:
+      - "/dev/ttyS0:/dev/ttyS0"
+    
+    # For detatched mode
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
